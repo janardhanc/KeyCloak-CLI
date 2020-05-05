@@ -1,0 +1,44 @@
+{
+  "name": "keycloak-cli",
+  "version": "1.0.0",
+  "description": "generate keycloak configuration and load to keycloak api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "keycloak": "./bin/keycloak.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janardhanc/KeyCloak-CLI.git"
+  },
+  "keywords": [
+    "keycloak",
+    "cli",
+    "keycloak",
+    "config",
+    "keycloak",
+    "cli"
+  ],
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": { 
+    "commander": "^2.14.1",
+    "configstore": "^3.1.1",
+    "inquirer": "^4.0.1",
+    "keytar": "^5.6.0"
+  },
+  "author": "janardhanc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janardhanc/KeyCloak-CLI/issues"
+  },
+  "homepage": "https://github.com/janardhanc/KeyCloak-CLI#readme"
+}
